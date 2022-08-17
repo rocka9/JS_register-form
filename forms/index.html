@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation formulaire d'inscription en JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css-awesome/all.css">
+    <script src="app.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Créer un compte</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label for="">Nom d'utilisateur</label>
+                <input type="text"  id="username" placeholder="UserName">
+                <i class="fas fa-check-circle"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small> Error</small> <!--<small> permet de représenter des commentaires ou des textes à écrire en petits caractères -->
+            </div>
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="email"  id="email" placeholder="Email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small> Error</small>
+            </div>
+            <div class="form-control">
+                <label for="">Mot de passe</label>
+                <input type="password"  id="password" >
+                <i class="fas fa-check-circle"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small> Error</small>
+            </div>
+            <div class="form-control">
+                <label for="">Nom d'utilisateur</label>
+                <input type="password"  id="passwordConfirm">
+                <i class="fas fa-check-circle"></i>
+                <i class="fa-solid fa-exclamation"></i>
+                <small> Error</small>
+            </div>
+            <button type="submit"><i class="fa-solid fa-user"></i> S'inscrire</button>
+        </form>
+    </div>
+    
+</body>
+</html>
